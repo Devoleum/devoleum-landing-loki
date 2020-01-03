@@ -3,6 +3,7 @@ import ImgTree from '../imgs/tree.png';
 import {FakeOil} from './home/FakeOil';
 import {DevoleumIntro} from './home/DevoleumIntro';
 import {FeaturesDetails} from './home/FeaturesDetails';
+import {Press} from './home/Press';
 import {Team} from './home/Team';
 import ContentAccordion from './home/ContentAccordion';
 import {Contacts} from './home/Contacts';
@@ -52,6 +53,8 @@ export default class App extends Component {
         <DevoleumIntro/>
         <a id="features"></a>
         <FeaturesDetails/>
+        <a id="press"></a>
+        <Press/>
         <a id="team"></a>
         <Team/>
         <a id="faq"></a>

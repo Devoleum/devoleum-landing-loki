@@ -204,12 +204,14 @@ a {
 .press-container{
   z-index: 1;
   margin: auto;
-  max-width: 600px;
   padding-bottom: 20px;
   color: black;
   font-size: 1.125rem;
   font-weight: 350;
 
+  @media (max-width: $size-md) {
+    max-width: 80;
+  }
 
 }
 

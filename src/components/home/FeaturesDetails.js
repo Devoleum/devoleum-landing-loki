@@ -43,7 +43,7 @@ let strings = new LocalizedStrings({
       },
       {
         title: "Correttezza",
-        content: "Devoleum offre la possibilità di combinare oracoli e modelli di intelligenza artificiale che ispezioneranno la correttezza dei dati prima di essere inseriti immutabilmente all'interno di Ethereum. Utilizzando l'intelligenza artificiale possiamo fornire una previsione accurata in tempo reale con i dati a incorruttibili della blockchain. L'architettura di Devoleum oracoli accoglie i modelli di intelligenza artificiale che utilizzano Federated Apprendimento, al fine di preservare la privacy e la scalabilità dei dati. ",
+        content: "Devoleum offre la possibilità di combinare oracoli e modelli di intelligenza artificiale che ispezioneranno la correttezza dei dati prima di essere inseriti immutabilmente all'interno di Ethereum. Utilizzando l'intelligenza artificiale possiamo fornire una previsione accurata in tempo reale con i dati a incorruttibili della blockchain. L'architettura degli oracoli di Devoleum incentiva l'integrazione di modelli IA che utilizzano il Federated Learning, al fine di preservare la privacy e la scalabilità dei dati. ",
       },
       {
         title: "Interoperabilità",
