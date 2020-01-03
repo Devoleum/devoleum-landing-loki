@@ -24,8 +24,8 @@ class Header extends Component {
     }
 
   componentDidMount() {
-    const main = document.querySelector('body');
-    //main.addEventListener('click', this.closeSidebar, isPassive);
+    const main = document.querySelector('#home');
+    main.addEventListener('click', this.closeSidebar, isPassive);
   }
 
 

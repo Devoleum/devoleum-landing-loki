@@ -23,7 +23,7 @@ let strings = new LocalizedStrings({
 export default class App extends Component {
 	render() {
 		return (
-			<div className="home container">
+			<div className="home container" id="home">
 			  <a id="home"></a>
 			  <div className="menu-distance green-bg">
 			  </div>
