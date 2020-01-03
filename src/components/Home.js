@@ -1,0 +1,64 @@
+import { h, render, Component } from 'preact';
+import ImgTree from '../imgs/tree.png';
+import {FakeOil} from './home/FakeOil';
+import {DevoleumIntro} from './home/DevoleumIntro';
+import {FeaturesDetails} from './home/FeaturesDetails';
+import {Team} from './home/Team';
+import ContentAccordion from './home/ContentAccordion';
+import {Contacts} from './home/Contacts';
+
+import LocalizedStrings from 'localized-strings';
+
+let strings = new LocalizedStrings({
+ en:{
+   title: "The transparent soul of unique products",
+   subtitle: `Check our collaborations`,
+ },
+ it: {
+   title: "L'anima trasparente di prodotti unici",
+   subtitle: `Guarda le nostre collaborazioni`,
+ }
+});
+export default class App extends Component {
+	render() {
+		return (
+			<div className="home container">
+			  <a id="home"></a>
+			  <div className="menu-distance green-bg">
+			  </div>
+			  <div className="hide-sm" />
+			  <div className="center green-bg devo-section">
+			    <div className="columns hero-banner">
+			      <div className="column col-7 col-md-12 col-ml-auto">
+			        <div className="logo">
+			          <img src={ImgTree} alt="" className="inferno-logo"/>
+			        </div>
+			      </div>
+			      <div className="column col-5 col-md-12 col-mr-auto obj-vert-center">
+			        <div className="logo-text">
+			          <h1 className="title">{strings.title}</h1>
+			          <br />
+			          <br />
+			          <br />
+			          <a href="https://collaborations.devoleum.com/Histories" target="_blank">
+			            <h2 className="sub-content">{strings.subtitle}</h2>
+			          </a>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+        <FakeOil/>
+        <a id="about"></a>
+        <DevoleumIntro/>
+        <a id="features"></a>
+        <FeaturesDetails/>
+        <a id="team"></a>
+        <Team/>
+        <a id="faq"></a>
+        <ContentAccordion/>
+        <a id="contacts"></a>
+        <Contacts />
+			</div>
+		);
+	}
+}
