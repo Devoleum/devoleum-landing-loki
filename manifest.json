@@ -1,11 +1,11 @@
 {
-  "name": "devoleum-preact-landing",
-  "short_name": "devoleum-preact-landing",
+  "name": "devoleum",
+  "short_name": "devoleum",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#A2BA24",
   "icons": [
     {
       "src": "/assets/icon.png",
