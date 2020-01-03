@@ -1,5 +1,8 @@
 import ImgTransparency from '../../imgs/trans.png';
 import ImgPrivacy from '../../imgs/safe.png';
+import ImgCorrectness from '../../imgs/correctness.png';
+import ImgScala from '../../imgs/scala.png';
+import ImgInter from '../../imgs/inter.png';
 import LocalizedStrings from 'localized-strings';
 
 let strings = new LocalizedStrings({
@@ -63,13 +66,13 @@ const ImagesComponents = (props) => {
       return <img src={ImgPrivacy} alt="" className="img-side"/>
       break;
     case 2:
-      return <img src={ImgTransparency} alt="" className="img-side"/>
+      return <img src={ImgCorrectness} alt="" className="img-side"/>
       break;
     case 3:
-      return <img src={ImgPrivacy} alt="" className="img-side"/>
+      return <img src={ImgInter} alt="" className="img-side"/>
       break;
     case 4:
-      return <img src={ImgTransparency} alt="" className="img-side"/>
+      return <img src={ImgScala} alt="" className="img-side"/>
       break;
     default:
       return <img src={ImgPrivacy} alt="" className="img-side"/>
