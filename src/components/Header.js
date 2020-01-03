@@ -2,7 +2,20 @@ import {h, render, Component} from 'preact';
 import IconMenu from '../icons/IconMenu';
 import LogoDevoleum from '../icons/logo.png';
 import isPassive from '../utils/isPassive';
+import LocalizedStrings from 'localized-strings';
 
+let strings = new LocalizedStrings({
+ en:{
+   about: "About",
+   press: "Press",
+   contact: "Contact Us"
+ },
+ it: {
+   about: "Info",
+   press: "Media",
+   contact: "Contattaci"
+ }
+});
 
 class Header extends Component {
 
@@ -46,11 +59,11 @@ class Header extends Component {
             </div>
             <nav className={ 'lg9 md9 ' + (this.state.active ? 'open' : 'closed') }>
               <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#press">Press</a>
+              <a href="#about">{strings.about}</a>
+              <a href="#press">{strings.press}</a>
               <a href="#team">Team</a>
               <a href="#faq">FAQ</a>
-              <a href="#contacts">Contact Us</a>
+              <a href="#contacts">{strings.contact}</a>
             </nav>
           </div>
         </div>
