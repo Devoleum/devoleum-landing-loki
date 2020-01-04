@@ -50,7 +50,7 @@ let strings = new LocalizedStrings({
      },
      {
        title: 'Quali tecnologie utilizza Devoleum?',
-       content: "Tutte le tecnologie alla base di Devoleum sono open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron ecc ...",
+       content: "Tutte le tecnologie alla base di Devoleum sono open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
        link: ''
      },
      {
