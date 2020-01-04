@@ -74,7 +74,7 @@ let strings = new LocalizedStrings({
           },
           {
             title: "Évolutivité",
-            content: "Les contrats intelligents Devoleum peuvent être connectés à des bases de données existantes, NoSQL, SQL ou IPFS. Devoleum vous permet de légaliser de grandes quantités de données sur la blockchain sans dépenser une fortune. Avec notre solution il est possible de lier cryptographiquement des données en dehors de la blockchain dans nos smart contract.",
+            content: "Les smart contract de Devoleum peuvent être connectés à des bases de données existantes, NoSQL, SQL ou IPFS. Devoleum vous permet de légaliser de grandes quantités de données sur la blockchain sans dépenser une fortune. Avec notre solution il est possible de lier cryptographiquement des données en dehors de la blockchain dans nos smart contract.",
           },
     ],
   }
