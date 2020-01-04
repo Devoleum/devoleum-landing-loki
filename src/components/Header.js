@@ -14,7 +14,12 @@ let strings = new LocalizedStrings({
    about: "Info",
    press: "Media",
    contact: "Contattaci"
- }
+ },
+ fr: {
+  about: "Info",
+  press: "Presse",
+  contact: "Contact"
+}
 });
 
 class Header extends Component {

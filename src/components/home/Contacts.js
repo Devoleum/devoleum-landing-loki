@@ -12,7 +12,13 @@ let strings = new LocalizedStrings({
    name: `Nome`,
    message: "Messaggio",
    send: "Invia"
- }
+ },
+ fr: {
+  title: "Contact",
+  name: `Prénom`,
+  message: "Message",
+  send: "Envoyer"
+}
 });
 
 export function Contacts() {

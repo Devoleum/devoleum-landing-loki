@@ -8,7 +8,10 @@ let strings = new LocalizedStrings({
  },
  it: {
    title: "Dicono di noi",
- }
+ },
+ fr: {
+  title: "Presse",
+}
 });
 
 

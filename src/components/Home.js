@@ -18,7 +18,11 @@ let strings = new LocalizedStrings({
  it: {
    title: "L'anima trasparente di prodotti unici",
    subtitle: `Guarda le nostre collaborazioni`,
- }
+ },
+ fr: {
+	title: "L'âme transparente de produits d'excellence",
+	subtitle: `Nos collaborations`,
+  }
 });
 export default class App extends Component {
 	render() {
