@@ -61,7 +61,7 @@ let strings = new LocalizedStrings({
      {
        title: 'Avete un whitepaper?',
        content: "Non siamo interessati alla stesura di un white paper, per i motivi menzionati nell'articolo disponibile a questo link",
-       link: "Collegamento dell'articolo"
+       link: "Link all'articolo"
      },
      {
        title: 'Pianificate una ICO?',
