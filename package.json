@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build": "preact build --template src/template.html",
+    "build": "preact build --template src/template.html && npm run copy_manifest",
+    "copy_manifest": "cp manifest.json build/manifest.json && cp assets/icon.png build/assets/icon.png",
     "serve": "preact build && preact serve",
     "dev": "preact watch --template src/template.html",
     "lint": "eslint src"
