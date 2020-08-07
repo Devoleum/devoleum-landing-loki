@@ -7,32 +7,17 @@ let strings = new LocalizedStrings({
      {
        title: 'I want to try Devoleum!',
        content: "You can try our simulation for free, build your supply chain at this link.",
-       link: 'Smart tag video'
+       link: 'Link to simulation'
      },
      {
        title: 'How Devoleum integrates Smart Tags?',
        content: "Take a look at the video in the link, using different kinds of Oracles Devoleum can integrate even more advanced smart tags.",
-       link: 'Link to simulation'
+       link: 'Smart tag video'
      },
      {
        title: 'What tech does Devoleum use?',
-       content: "All the tech behind Devoleum is open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
+       content: "Devoleum and all the tech usedd is open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
        link: ''
-     },
-     {
-       title: 'Deveolum is a software or hardware solution?',
-       content: "Devoleum is a digital solution, we manage the data provided by the users, we do not generate data or provide hardware tools.",
-       link: ''
-     },
-     {
-       title: 'Do you have a white paper?',
-       content: "No, we are busy working on the real project and is in constant evolution, we do not have time to waste on a fake paper, we suggest to read this article",
-       link: 'Article link'
-     },
-     {
-       title: 'Do you plan an ICO?',
-       content: "No, we do not beg for money, if you want to invest in Devoleum you are welcome, contact us and do not forget to link your investments portfolio.",
-       link: 'Contact us'
      },
    ]
  },
@@ -50,23 +35,8 @@ let strings = new LocalizedStrings({
      },
      {
        title: 'Quali tecnologie utilizza Devoleum?',
-       content: "Tutte le tecnologie alla base di Devoleum sono open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
+       content: "Devoleum e tutte le tecnologie che utilizziamo sono open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
        link: ''
-     },
-     {
-       title: 'Deveolum è una soluzione software o hardware?',
-       content: "Devoleum è una soluzione digitale, i dati sono forniti dagli utenti, non generiamo dati né forniamo strumenti hardware.",
-       link: ''
-     },
-     {
-       title: 'Avete un whitepaper?',
-       content: "Non siamo interessati alla stesura di un white paper, per i motivi menzionati nell'articolo disponibile a questo link",
-       link: "Link all'articolo"
-     },
-     {
-       title: 'Pianificate una ICO?',
-       content: "No, non abbiamo intenzione di lanciare una ICO, chiunque voglia investire in Devoleum è il benvenuto. Se siete interessati potete contattarci includendo il portfolio di investimenti.",
-       link: 'Contattaci'
      },
    ],
 
@@ -85,23 +55,8 @@ let strings = new LocalizedStrings({
     },
     {
       title: 'Quelles technologies utilisent Devoleum?',
-      content: "Toutes les technologies utilisées par Devoleum sont open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc …",
+      content: "Devoleum et toutes les technologies utilisées sont open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc …",
       link: ''
-    },
-    {
-      title: 'Devoleum est-il une solution numérique ou hardware?',
-      content: "Devoleum est une solution numérique, les données sont fournies par les utilisateurs, nous ne générons pas de données et ne fournissons pas de hardware.",
-      link: ''
-    },
-    {
-      title: 'Avez-vous un whitepaper?',
-      content: "Non, nous ne sommes pas intéressés à la rédaction d'un whitepaper pour les raisons mentionnées dans l'article disponible sur ce link.",
-      link: "Lien article"
-    },
-    {
-      title: 'Allez-vous lancer un ICO?',
-      content: "Non, nous ne demandons pas d'argent par ICO, si vous souhaitez investir dans Devoleum vous êtes les bienvenus, contactez-nous en incluant votre portefeuille d'investissement.",
-      link: 'Contact'
     },
   ],
   
@@ -112,9 +67,6 @@ const LINKS = [
   'https://simulation.devoleum.com/',
   'https://www.youtube.com/watch?v=LgfpouDZ4A0',
   '',
-  '',
-  'https://medium.com/loom-network/loom-network-wheres-your-whitepaper-5c5c9075af72',
-  'mailto:devoleum@gmail.com'
 ]
 const setCurrent = ({ instance, index }, e) => {
   e.stopPropagation();
