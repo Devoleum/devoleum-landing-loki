@@ -5,15 +5,15 @@ import ImgLorenzo from '../../imgs/lorenzo.jpg';
 let strings = new LocalizedStrings({
  en:{
    elisa_bio: `Data Analyst, AI and Blockchain developer in the Forbes list "60 Women-Led Startups That Are Shaking Up Tech Across The Globe" with the project Devoleum. Italian InspiringFifty Italy 2018.`,
-   lorenzo_bio: "Blockchain and AI developer. Winner of the TIM #Wcap prize at the first Italian official hackathon, Digithon 2016. Blockchain mentor for the Silicon Valley top company Udacity."
+   lorenzo_bio: "Blockchain and AI developer. Winner of the TIM #Wcap prize at the first Italian official hackathon, Digithon 2016. Blockchain mentor for Silicon Valley top companies"
  },
  it: {
    elisa_bio: `Data Analyst, AI e Blockchain developer nella lista di Forbes USA "60 Women-Led Startups That Are Shaking Up Tech Across The Globe" con il progetto Devoleum, nominata InspiringFifty Italia 2018.`,
-   lorenzo_bio: "Blockchain e AI developer. Vinctore del premio TIM #Wcap al primo hackathon italiano ufficiale, Digithon 2016. Blockchain mentor per la Silicon Valley top company Udacity."
+   lorenzo_bio: "Blockchain e AI developer. Vinctore del premio TIM #Wcap al primo hackathon italiano ufficiale, Digithon 2016. Blockchain mentor per top company della Silicon Valley."
  },
  fr: {
   elisa_bio: ` Data Analyst, AI et développeur Blockchain sur la liste Forbes USA de "60 Women-Led Startups That Are Shaking Up Tech Across The Globe" avec le projet Devoleum, nommé InspiringFifty Italy 2018.`,
-  lorenzo_bio: "Développeur Blockchain et AI. Lauréat du prix TIM #Wcap lors du premier hackathon officiel italien, Digithon 2016. Mentor de la blockchain pour la Silicon Valley top company Udacity.  ."
+  lorenzo_bio: "Développeur Blockchain et AI. Lauréat du prix TIM #Wcap lors du premier hackathon officiel italien, Digithon 2016. Mentor de la blockchain pour les Silicon Valley top companies."
 }
 });
 
