@@ -12,7 +12,7 @@ let strings = new LocalizedStrings({
      {
        title: 'How Devoleum integrates Smart Tags?',
        content: "Take a look at the video in the link, using different kinds of Oracles Devoleum can integrate even more advanced smart tags.",
-       link: 'Smart tag video'
+       link: ''
      },
      {
        title: 'What tech does Devoleum use?',
@@ -31,7 +31,7 @@ let strings = new LocalizedStrings({
      {
        title: 'In che modo Devoleum integra gli smart tag?',
        content: "Una dimostrazione di come vengono Devoleum integra gli smart tag è disponibile al link di seguito. Grazie all'utilizzo di diversi tipi di oracoli Devoleum può integrare smart tag ancora più avanzati.",
-       link: 'Smart tag video'
+       link: ''
      },
      {
        title: 'Quali tecnologie utilizza Devoleum?',
@@ -51,7 +51,7 @@ let strings = new LocalizedStrings({
     {
       title: 'Comment Devoleum intègre-t-il les smart tag?',
       content: "Il est possible de voir une démonstration dans la vidéo sur ce lien, en utilisant différents types d'oracles, Devoleum peut intégrer des smart tag encore plus avancées.",
-      link: 'Lien vidéo'
+      link: ''
     },
     {
       title: 'Quelles technologies utilisent Devoleum?',
