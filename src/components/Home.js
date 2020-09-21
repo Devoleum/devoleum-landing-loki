@@ -27,6 +27,7 @@ let strings = new LocalizedStrings({
   }
 });
 export default class App extends Component {
+  
 	render() {
 		return (
 			<div className="home container" id="home">
