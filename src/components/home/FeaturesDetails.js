@@ -161,7 +161,7 @@ export function FeaturesDetails() {
           );
         }
       })}
-      <div align="right">
+      <div align="center">
       <h4><a href="https://devoleum.github.io/docs/"
              target="_blank" className="think-link">
               {strings.calltoaction}
