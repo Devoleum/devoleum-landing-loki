@@ -9,6 +9,7 @@ import {Team} from './home/Team';
 import {Collab} from './home/Collab';
 import ContentAccordion from './home/ContentAccordion';
 import {Contacts} from './home/Contacts';
+import {Footer} from './home/Footer';
 
 import LocalizedStrings from 'localized-strings';
 
@@ -73,6 +74,7 @@ export default class App extends Component {
         <ContentAccordion/>
         <a id="contacts"></a>
         <Contacts />
+		<Footer />
 			</div>
 		);
 	}

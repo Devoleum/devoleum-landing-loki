@@ -65,6 +65,7 @@ class Header extends Component {
             <nav className={ 'lg9 md9 ' + (this.state.active ? 'open' : 'closed') }>
               <a href="#home">Home</a>
               <a href="#about">{strings.about}</a>
+              <a href="https://github.com/Devoleum" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="#press">{strings.press}</a>
               <a href="#team">Team</a>
               <a href="#faq">FAQ</a>

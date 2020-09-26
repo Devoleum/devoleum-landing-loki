@@ -265,3 +265,13 @@ a {
     margin-bottom: 10px;
   }
 }
+
+.footer {
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  a {
+    margin-right: 20px ;
+  }
+}

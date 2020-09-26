@@ -34,6 +34,7 @@ let strings = new LocalizedStrings({
           "Devoleum's smart contracts can be connected to existing databases such as NoSQL, SQL, or IPFS. Devoleum allows you to notarize large amounts of data on the blockchain. With our solution, it's possible to cryptographically bind data outside the blockchain within our smart contracts.",
       },
     ],
+    calltoaction: "To find out more, consult our documentation",
   },
   it: {
     features: [
@@ -63,6 +64,7 @@ let strings = new LocalizedStrings({
           "Gli smart contract di Devoleum possono essere collegati a database esistenti come NoSQL, SQL o IPFS. Devoleum consente di notarizzare grandi quantità di dati sulla blockchain. Con la nostra soluzione è possibile legare crittograficamente i dati al di fuori della blockchain all'interno dei nostri smart contract.",
       },
     ],
+    calltoaction: "Per saperne di più consulta la nostra documentazione",
   },
   fr: {
     features: [
@@ -92,6 +94,7 @@ let strings = new LocalizedStrings({
           "Les smart contracts de Devoleum peuvent être connectés à des bases de données existantes telles que NoSQL, SQL, ou IPFS. Devoleum vous permet de notariser de grandes quantités de données sur la blockchain. Avec notre solution, il est possible de lier cryptographiquement des données en dehors de la blockchain dans nos smart contracts.",
       },
     ],
+    calltoaction: "Pour en savoir plus, consultez notre documentation",
   },
 });
 
@@ -158,6 +161,13 @@ export function FeaturesDetails() {
           );
         }
       })}
+      <div align="right">
+      <h4><a href="https://devoleum.github.io/docs/"
+             target="_blank" className="think-link">
+              {strings.calltoaction}
+            </a></h4>
+      </div>
+
     </section>
   );
 }
