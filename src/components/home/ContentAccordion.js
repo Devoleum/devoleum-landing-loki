@@ -6,18 +6,18 @@ let strings = new LocalizedStrings({
    faq: [
      {
        title: 'I want to try Devoleum!',
-       content: "You can try our simulation for free, build your supply chain at this link.",
+       content: "You can try our simulation for free",
        link: 'Link to simulation'
      },
      {
        title: 'How Devoleum integrates Smart Tags?',
-       content: "Take a look at the video in the link, using different kinds of Oracles Devoleum can integrate even more advanced smart tags.",
+       content: "Using different kinds of Oracles Devoleum can integrate simple QR codes and even more advanced smart tags.",
        link: ''
      },
      {
        title: 'What tech does Devoleum use?',
-       content: "Devoleum and all the tech usedd is open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
-       link: ''
+       content: "Devoleum and all the tech we use is open source",
+       link: 'Check our repositories'
      },
    ]
  },
@@ -30,13 +30,13 @@ let strings = new LocalizedStrings({
      },
      {
        title: 'In che modo Devoleum integra gli smart tag?',
-       content: "Una dimostrazione di come vengono Devoleum integra gli smart tag è disponibile al link di seguito. Grazie all'utilizzo di diversi tipi di oracoli Devoleum può integrare smart tag ancora più avanzati.",
+       content: "Grazie all'utilizzo di diversi tipi di oracoli Devoleum può integrare dai semplice QR code a smart tag ancora più avanzati.",
        link: ''
      },
      {
        title: 'Quali tecnologie utilizza Devoleum?',
-       content: "Devoleum e tutte le tecnologie che utilizziamo sono open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc...",
-       link: ''
+       content: "Devoleum e tutte le tecnologie che utilizziamo sono open source.",
+       link: 'Guarda le nostre repo'
      },
    ],
 
@@ -50,13 +50,13 @@ let strings = new LocalizedStrings({
     },
     {
       title: 'Comment Devoleum intègre-t-il les smart tag?',
-      content: "Il est possible de voir une démonstration dans la vidéo sur ce lien, en utilisant différents types d'oracles, Devoleum peut intégrer des smart tag encore plus avancées.",
+      content: "Using different kinds of Oracles Devoleum can integrate simple QR codes and even more advanced smart tags.",
       link: ''
     },
     {
       title: 'Quelles technologies utilisent Devoleum?',
-      content: "Devoleum et toutes les technologies utilisées sont open source, Ethereum blockchain, Tensor Flow, PySyft, Truffle, React, Preact, Electron etc …",
-      link: ''
+      content: "Devoleum and all the tech we use is open source.",
+      link: 'Check our repositories'
     },
   ],
   
@@ -65,8 +65,8 @@ let strings = new LocalizedStrings({
 
 const LINKS = [
   'https://simulation.devoleum.com/',
-  'https://www.youtube.com/watch?v=LgfpouDZ4A0',
   '',
+  'https://github.com/Devoleum',
 ]
 const setCurrent = ({ instance, index }, e) => {
   e.stopPropagation();
