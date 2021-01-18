@@ -53,7 +53,7 @@ export default class App extends Component {
 			          <br />
 			          <br />
 			          <br />
-			          <a href="https://collaborations.devoleum.com/Histories" target="_blank">
+			          <a href="https://app.devoleum.com" target="_blank">
 			            <h2 className="sub-content">{strings.subtitle}</h2>
 			          </a>
 			        </div>
