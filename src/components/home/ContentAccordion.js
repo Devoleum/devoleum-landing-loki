@@ -5,11 +5,6 @@ let strings = new LocalizedStrings({
  en:{
    faq: [
      {
-       title: 'I want to try Devoleum!',
-       content: "You can try our simulation for free",
-       link: 'Link to simulation'
-     },
-     {
        title: 'How Devoleum integrates Smart Tags?',
        content: "Using different kinds of Oracles Devoleum can integrate simple QR codes and even more advanced smart tags.",
        link: ''
@@ -23,11 +18,6 @@ let strings = new LocalizedStrings({
  },
  it: {
    faq: [
-     {
-       title: 'Voglio provare Devoleum!',
-       content: "Puoi provare la nostra simulazione gratuitamente a questo link.",
-       link: 'Link alla simulazione'
-     },
      {
        title: 'In che modo Devoleum integra gli smart tag?',
        content: "Grazie all'utilizzo di diversi tipi di oracoli Devoleum può integrare dai semplice QR code a smart tag ancora più avanzati.",
@@ -44,11 +34,6 @@ let strings = new LocalizedStrings({
  fr: {
   faq: [
     {
-      title: 'Je veux essayer Devoleum!',
-      content: "Vous pouvez essayer notre simulation gratuitement sur ce lien.",
-      link: 'Lien simulation'
-    },
-    {
       title: 'Comment Devoleum intègre-t-il les smart tag?',
       content: "Using different kinds of Oracles Devoleum can integrate simple QR codes and even more advanced smart tags.",
       link: ''
@@ -64,7 +49,6 @@ let strings = new LocalizedStrings({
 });
 
 const LINKS = [
-  'https://simulation.devoleum.com/',
   '',
   'https://github.com/Devoleum',
 ]
