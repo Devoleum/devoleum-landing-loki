@@ -1,13 +1,10 @@
 import { h, render, Component } from 'preact';
 import ImgTree from '../imgs/tree.png';
-import {FakeOil} from './home/FakeOil';
-import {Why} from './home/Why';
 import {DevoleumIntro} from './home/DevoleumIntro';
 import {FeaturesDetails} from './home/FeaturesDetails';
 import {Press} from './home/Press';
 import {Team} from './home/Team';
 import {Collab} from './home/Collab';
-import ContentAccordion from './home/ContentAccordion';
 import {Contacts} from './home/Contacts';
 import {Footer} from './home/Footer';
 
@@ -70,8 +67,6 @@ export default class App extends Component {
         <Press/>
         <a id="team"></a>
         <Team/>
-        <a id="faq"></a>
-        <ContentAccordion/>
         <a id="contacts"></a>
         <Contacts />
 		<Footer />

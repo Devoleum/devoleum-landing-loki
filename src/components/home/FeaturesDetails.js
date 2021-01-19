@@ -46,12 +46,12 @@ let strings = new LocalizedStrings({
       {
         title: "Privacy",
         content:
-          "Devoleum tutela i propri utenti con un design orientato alla privacy. Devoleum traccia le filiere tramite la notarizzazione su blockchain di prove crittografiche, lasciando all'utente la totale proprietà dei dati e gestione della loro visibilità. La natura aperta di Devoleum offre inoltre la possibilità di integrare innumerevoli strumenti tra i quali la crittografia omomorfica ed il Federated Learning.",
+          "Devoleum tutela i propri utenti con un design orientato alla privacy. Devoleum dona autenticità alle filiere tramite la notarizzazione su blockchain e/o altri sistemi distribuiti di prove crittografiche anonimizzate. L'utente ha la totale proprietà dei dati e gestione della loro visibilità. La natura aperta di Devoleum offre inoltre la possibilità di integrare innumerevoli strumenti tra i quali la crittografia omomorfica ed il Federated Learning.",
       },
       {
         title: "Correttezza",
         content:
-          "La natura aperta di Devoleum offre la possibilità di combinare oracoli e modelli di intelligenza artificiale, dando la possibilità di ispezionare la correttezza dei dati prima di essere notarizzati immutabilmente sulla blockchain. Tramite l'integrazione di modelli di intelligenza artificiale possiamo fornire una previsione accurata in tempo reale, sfruttando il vantaggio dell'incorruttibilità dei dati su blockchain. L'architettura degli oracoli di Devoleum incentiva l'integrazione di modelli IA che utilizzano il Federated Learning, al fine di preservare la privacy e la scalabilità dei dati.",
+          "La natura aperta di Devoleum offre la possibilità di combinare oracoli e modelli di intelligenza artificiale, dando la possibilità di ispezionare la correttezza dei dati prima di essere notarizzati immutabilmente sulla blockchain e/o altri sistemi distribuiti. Tramite l'integrazione di modelli di intelligenza artificiale possiamo fornire una previsione accurata in tempo reale, sfruttando il vantaggio dell'incorruttibilità dei dati su blockchain. L'architettura degli oracoli di Devoleum incentiva l'integrazione di modelli IA che utilizzano il Federated Learning, al fine di preservare la privacy e la scalabilità dei dati.",
       },
       {
         title: "Interoperabilità",

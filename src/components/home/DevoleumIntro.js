@@ -9,8 +9,8 @@ let strings = new LocalizedStrings({
  },
  it: {
    title: "Cosa è Devoleum?",
-   content: "Devoleum è una piattaforma web basata su Ethereum Blockchain. Devoleum organizza i dati di filiere fisiche o digitali in storie significative, rendendo ogni passaggio immutabile sulla blockchain. Ogni storia mostra in modo chiaro e dettagliato i passaggi che hanno contribuito a rendere il prodotto unico e prezioso. Devoleum crea automaticamente uno storico del prodotto, facilmente accessibile sulla nostra piattaforma da qualsiasi dispositivo semplicemente scansionando uno smart tag. Devoleum è un progetto open source, gratuito e aperto a tutti.",
-   calltoaction: "Vai alla piattaforma"
+   content: "Devoleum è una web app. Devoleum organizza i dati di filiere fisiche o digitali in storie significative, rendendo ogni passaggio immutabile su blockchain o altri sistemi distribuiti. Ogni storia mostra in modo chiaro e dettagliato i passaggi che hanno contribuito a rendere il prodotto unico e prezioso. Devoleum crea automaticamente uno storytelling del prodotto, facilmente accessibile sulla nostra piattaforma da qualsiasi dispositivo semplicemente scansionando uno smart tag. Devoleum è un progetto open source, gratuito e aperto a tutti.",
+   calltoaction: "Esplora le Storie"
  },
  fr: {
    title: "Qu'est-ce que Devoleum?",
