@@ -26,7 +26,7 @@ export function Contacts() {
     <section className="devo-section green-bg container">
     <h2 className="title">{strings.title}</h2>
       <form className="form-group sub-content contacts"
-        action="https://formcarry.com/s/udmkXrUPdUr"
+        action="https://formcarry.com/s/zq4MG7gYIli"
         method="POST" accept-charset="UTF-8" >
         <label class="form-label" for="input-example-1">Email</label>
         <input className="form-input" type="email" name="email" />
