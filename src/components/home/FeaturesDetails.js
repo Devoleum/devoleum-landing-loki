@@ -11,7 +11,7 @@ let strings = new LocalizedStrings({
       {
         title: "Transparency",
         content:
-          "Devoleum is an open source project. Devoleum allows you to notarize the steps of physical or digital supply chains on the Ethereum blockchain, a tamper-proof transparent blockchain. The data within the blockchain thus becomes public, immutable and impossible to manipulate. Every interaction with the data is recorded in public transactions. King Joffrey knows well why transparency is especially important in the agri-food supply chains.",
+          "Devoleum is an open source project. Devoleum allows you to notarize the steps of physical or digital supply chains on the Ethereum and Algorand blockchains, a tamper-proof transparent blockchain. The data within the blockchain thus becomes public, immutable and impossible to manipulate. Every interaction with the data is recorded in public transactions. King Joffrey knows well why transparency is especially important in the agri-food supply chains.",
       },
       {
         title: "Privacy",
@@ -26,7 +26,7 @@ let strings = new LocalizedStrings({
       {
         title: "Interoperability",
         content:
-          "Devoleum's smart contracts can react to events outside the Ethereum blockchain, thanks to oracles. Oracles allow different data sources to communicate with the blockchain, creating interactive stories with data from the IoT, building information models (BIM), distribution services for digital content (aggregators and streaming) and much more. The open nature of Devoleum also allows you to use and even create APIs to interface in a personalized way with smart contracts.",
+          "Devoleum's smart contracts can react to events outside the Ethereum and Algorand blockchains, thanks to oracles. Oracles allow different data sources to communicate with the blockchain, creating interactive stories with data from the IoT, building information models (BIM), distribution services for digital content (aggregators and streaming) and much more. The open nature of Devoleum also allows you to use and even create APIs to interface in a personalized way with smart contracts.",
       },
       {
         title: "Scalability",
@@ -41,7 +41,7 @@ let strings = new LocalizedStrings({
       {
         title: "Trasparenza",
         content:
-          "Devoleum è un progetto open source. Devoleum permette di notarizzare i passaggi di filiere fisiche o digitali sulla blockchain di Ethereum, una blockchain trasparente a prova di manomissione. I dati all'interno della blockchain divengono così pubblici, immutabili e impossibili da manipolare. Ogni interazione con i dati viene registrata nelle transazioni pubbliche. King Joffrey sa bene perché la trasparenza è importante soprattutto nelle filiere agroalimentari.",
+          "Devoleum è un progetto open source. Devoleum permette di notarizzare i passaggi di filiere fisiche o digitali sulle blockchain di Ethereum e Algorand, blockchain trasparenti a prova di manomissione. I dati all'interno della blockchain divengono così pubblici, immutabili e impossibili da manipolare. Ogni interazione con i dati viene registrata nelle transazioni pubbliche. King Joffrey sa bene perché la trasparenza è importante soprattutto nelle filiere agroalimentari.",
       },
       {
         title: "Privacy",
@@ -56,7 +56,7 @@ let strings = new LocalizedStrings({
       {
         title: "Interoperabilità",
         content:
-          "Gli smart contract di Devoleum possono reagire a eventi esterni alla blockchain di Ethereum, grazie agli oracoli. Gli oracoli consentono a diverse fonti di dati di comunicare con la blockchain, creando storie interattive con i dati provenienti dall'IoT, costruendo modelli di informazione (BIM), servizi di distribuzione per contenuti digitali (aggregatori e streaming) e molto altro. La natura aperta di Devoleum permette inoltre di utilizzare e persino creare API per interfacciarsi in maniera personalizzata con gli smart contract.",
+          "Gli smart contract di Devoleum possono reagire a eventi esterni alle blockchain di Ethereum e Algorand, grazie agli oracoli. Gli oracoli consentono a diverse fonti di dati di comunicare con la blockchain, creando storie interattive con i dati provenienti dall'IoT, costruendo modelli di informazione (BIM), servizi di distribuzione per contenuti digitali (aggregatori e streaming) e molto altro. La natura aperta di Devoleum permette inoltre di utilizzare e persino creare API per interfacciarsi in maniera personalizzata con gli smart contract.",
       },
       {
         title: "Scalabilità",
@@ -71,7 +71,7 @@ let strings = new LocalizedStrings({
       {
         title: "Transparence",
         content:
-          "Devoleum stocke toutes les étapes de la blockchain Ethereum, un système inviolable, open source et transparent. Les données de la blockchain deviennent publiques, immuables et impossibles à manipuler. Toute interaction avec les données est enregistrée dans les transactions publiques. King Joffrey sait bien pourquoi la transparence est importante, en particulier dans les chaînes d'approvisionnement alimentaires.",
+          "Devoleum stocke toutes les étapes de le blockchain Ethereum et Algorand, système inviolable, open source et transparent. Les données de la blockchain deviennent publiques, immuables et impossibles à manipuler. Toute interaction avec les données est enregistrée dans les transactions publiques. King Joffrey sait bien pourquoi la transparence est importante, en particulier dans les chaînes d'approvisionnement alimentaires.",
       },
       {
         title: "Privacy",
@@ -86,7 +86,7 @@ let strings = new LocalizedStrings({
       {
         title: "Interopérabilité",
         content:
-          "Les contrats intelligents de Devoleum peuvent réagir à des événements en dehors de la blockchain Ethereum, grâce aux oracles. Les oracles permettent à différentes sources de données de communiquer avec la blockchain, de créer des histoires interactives avec des données de l'IoT, de créer des modèles d'information (BIM), des services de distribution de contenu numérique (agrégateurs et streaming) et bien plus encore. La nature ouverte de Devoleum vous permet également d'utiliser et même de créer des API pour s'interfacer de manière personnalisée avec des smart contracts.",
+          "Les contrats intelligents de Devoleum peuvent réagir à des événements en dehors de le blockchain Ethereum et Algorand, grâce aux oracles. Les oracles permettent à différentes sources de données de communiquer avec la blockchain, de créer des histoires interactives avec des données de l'IoT, de créer des modèles d'information (BIM), des services de distribution de contenu numérique (agrégateurs et streaming) et bien plus encore. La nature ouverte de Devoleum vous permet également d'utiliser et même de créer des API pour s'interfacer de manière personnalisée avec des smart contracts.",
       },
       {
         title: "Évolutivité",
