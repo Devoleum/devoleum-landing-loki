@@ -32,6 +32,7 @@ a {
   justify-content: center;
 }
 
+
 .title{
   font-family: Cooper,Georgia,Times,Times New Roman,serif;
 }
@@ -45,9 +46,6 @@ a {
 }
 
 .logo-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 400px;
   @media (max-width: $size-md) {
     width: 100%;
@@ -106,12 +104,6 @@ a {
   h2 {
     font-size: 1.2rem;
     font-weight: 250;
-  }
-  @media (max-width: $size-md) {
-    h1, h2 {
-      text-align: center;
-      margin: 0;
-    }
   }
 }
 
