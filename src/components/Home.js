@@ -34,7 +34,7 @@ export default function Home() {
 			<a id="home" />
 			<div className="menu-distance green-bg" />
 			<div className="hide-sm" />
-			<div className="center green-bg devo-section">
+			<div className="center green-bg devo-section" style={{ padding: '0' }}>
 				<div className="columns hero-banner">
 					<div className="column col-5 col-md-12 col-mr-auto obj-vert-center">
 						<div className="logo-text">
@@ -55,10 +55,9 @@ export default function Home() {
 				</div>
 			</div>
 			<HeadPress />
-			<Collab />
 			<a id="about" />
 			<DevoleumIntro />
-
+			<Collab />
 			<a id="features" />
 			<FeaturesDetails />
 			<a id="press" />

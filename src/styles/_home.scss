@@ -32,7 +32,6 @@ a {
   justify-content: center;
 }
 
-
 .title{
   font-family: Cooper,Georgia,Times,Times New Roman,serif;
 }
@@ -79,7 +78,7 @@ a {
 
   .inferno-logo {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     @media (max-width: $size-md) {
       margin: 0 auto;
       width: 100%;

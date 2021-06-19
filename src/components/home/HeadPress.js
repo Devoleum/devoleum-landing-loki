@@ -54,23 +54,21 @@ const QUOTES = [
 ];
 export function HeadPress() {
 	return (
-		<section className="devo-section container" align="center">
+		<section className="devo-section container" align="center" style={{ backgroundColor: 'antiquewhite' }}>
 			<div className="columns">
 				{QUOTES.map((el) => (
 					<div class="column col-6 col-md-12 columns" align="center">
 						<div className="column col-2 col-md-12 col-mr-auto">
-							<img src={el.img} alt="" className="img-side s-circle" />
+							<img src={el.img} alt="" style={{ borderRadius: '50%' }} />
 						</div>
 						<div className="column col-md-12 press-container">
 							<div className="sub-content" align="left">
                 “{el.quote}”
 							</div>
 							<br />
-							<div className="quote-source" align="left">
-								{el.journal}
-								<br />
-								<a href={el.source} className="thin-link" target="_blank">
-                  Link
+							<div className="" align="left">
+								<a href={el.source} className="" target="_blank">
+									{el.journal}
 								</a>
 							</div>
 						</div>

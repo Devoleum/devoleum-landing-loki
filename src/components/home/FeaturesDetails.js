@@ -7,6 +7,7 @@ import LocalizedStrings from 'localized-strings';
 
 let strings = new LocalizedStrings({
 	en: {
+		title: 'Why use Devoleum ?',
 		features: [
 			{
 				title: 'Transparency',
@@ -37,6 +38,7 @@ let strings = new LocalizedStrings({
 		calltoaction: 'To find out more, consult our documentation'
 	},
 	it: {
+		title: 'Perché usare Devoleum ?',
 		features: [
 			{
 				title: 'Trasparenza',
@@ -67,6 +69,7 @@ let strings = new LocalizedStrings({
 		calltoaction: 'Per saperne di più consulta la nostra documentazione'
 	},
 	fr: {
+		title: 'Pourquoi utiliser Devoleum ?',
 		features: [
 			{
 				title: 'Transparence',
@@ -118,6 +121,9 @@ const ImagesComponents = (props) => {
 export function FeaturesDetails() {
 	return (
 		<section className="devo-section">
+			<div align="center">
+				<h2 className="title">{strings.title}</h2>
+			</div>
 			{strings.features.map((item, index) => {
 				if (~index & 1) {
 					return (
