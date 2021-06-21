@@ -10,18 +10,21 @@ let strings = new LocalizedStrings({
     press: "Press",
     stories: "Stories",
     contact: "Contact Us",
+    donate: "Donate"
   },
   it: {
     about: "Info",
     press: "Media",
     stories: "Storie",
     contact: "Contattaci",
+    donate: "Dona"
   },
   fr: {
     about: "Info",
     press: "Presse",
     stories: "Histoires",
     contact: "Contact",
+    donate: "Donate"
   },
 });
 
@@ -64,24 +67,10 @@ class Header extends Component {
               className={"lg9 md9 " + (this.state.active ? "open" : "closed")}
             >
               <a href="#home">Home</a>
-              <a
-                href="https://app.devoleum.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {strings.stories}
-              </a>
               <a href="#about">{strings.about}</a>
-              <a
-                href="https://github.com/Devoleum"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <a href="#press">{strings.press}</a>
               <a href="#team">Team</a>
               <a href="#contacts">{strings.contact}</a>
+              <a href="#donate">{strings.donate}</a>
             </nav>
           </div>
         </div>
