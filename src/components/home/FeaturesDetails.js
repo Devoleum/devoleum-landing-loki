@@ -12,7 +12,7 @@ let strings = new LocalizedStrings({
 			{
 				title: 'Transparency',
 				content:
-          'Devoleum is an open source project. Devoleum allows you to notarize the steps of physical or digital supply chains on the Ethereum and Algorand blockchains, a tamper-proof transparent blockchain. The data within the blockchain thus becomes public, immutable and impossible to manipulate. Every interaction with the data is recorded in public transactions. King Joffrey knows well why transparency is especially important in the agri-food supply chains.'
+          'Devoleum is an open source project. Devoleum allows you to notarize the steps of physical or digital supply chains on the Ethereum and Algorand, tamper-proof transparent blockchain. The data within the blockchain thus becomes public, immutable and impossible to manipulate. Every interaction with the data is recorded in public transactions. King Joffrey knows well why transparency is especially important in the agri-food supply chains.'
 			},
 			{
 				title: 'Privacy',
@@ -120,56 +120,59 @@ const ImagesComponents = (props) => {
 
 export function FeaturesDetails() {
 	return (
-		<section className="devo-section">
-			<div align="center">
-				<h2 className="title">{strings.title}</h2>
-			</div>
-			{strings.features.map((item, index) => {
-				if (~index & 1) {
+		<div>
+			<section className="devo-section">
+				<div align="center">
+					<h2 className="title">{strings.title}</h2>
+				</div>
+				{strings.features.map((item, index) => {
+					if (~index & 1) {
+						return (
+							<div class="container bottom-margin">
+								<div class="columns">
+									<div class="column col-7 col-md-12 col-ml-auto text-side">
+										<div>
+											<h2 className="title">{item.title}</h2>
+											<div className="sub-content">{item.content}</div>
+										</div>
+									</div>
+									<div class="column col-5 col-md-12 col-ml-auto img-side-container">
+										<ImagesComponents index={index} />
+									</div>
+								</div>
+							</div>
+						);
+					}
 					return (
 						<div class="container bottom-margin">
 							<div class="columns">
+								<div
+									class="column col-5 col-md-12 col-ml-auto img-side-container"
+									align="center"
+								>
+									<ImagesComponents index={index} />
+								</div>
 								<div class="column col-7 col-md-12 col-ml-auto text-side">
 									<div>
 										<h2 className="title">{item.title}</h2>
 										<div className="sub-content">{item.content}</div>
 									</div>
 								</div>
-								<div class="column col-5 col-md-12 col-ml-auto img-side-container">
-									<ImagesComponents index={index} />
-								</div>
 							</div>
 						</div>
 					);
-				}
-				return (
-					<div class="container bottom-margin">
-						<div class="columns">
-							<div
-								class="column col-5 col-md-12 col-ml-auto img-side-container"
-								align="center"
-							>
-								<ImagesComponents index={index} />
-							</div>
-							<div class="column col-7 col-md-12 col-ml-auto text-side">
-								<div>
-									<h2 className="title">{item.title}</h2>
-									<div className="sub-content">{item.content}</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				);
         
-			})}
-			<div align="center">
-				<h4><a href="https://devoleum.github.io/docs/"
-					target="_blank" className="think-link"
-				    >
-					{strings.calltoaction}
-				</a></h4>
-			</div>
+				})}
+				<div align="center">
+					<h4><a href="https://devoleum.github.io/docs/"
+						target="_blank" className="think-link"
+					    >
+						{strings.calltoaction}
+					</a></h4>
+				</div>
 
-		</section>
+			</section>
+			<svg style={{ display: 'block', backgroundColor: '#ffffff', marginBottom: '-5px' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f6f6f6" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,192C640,181,800,139,960,122.7C1120,107,1280,117,1360,122.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" /></svg>
+		</div>
 	);
 }
