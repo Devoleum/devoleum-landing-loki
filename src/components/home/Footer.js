@@ -10,7 +10,7 @@ export function Footer() {
 				<SocialIcon url="https://www.linkedin.com/company/18328810" />
 				<SocialIcon url="https://twitter.com/devoleum" />
 			</section>
-			<div align="center">
+			<div align="center" style={{fontSize: '0.6em', wordBreak: 'break-all '}}>
 				<div>
 					Donate to
 				</div>
