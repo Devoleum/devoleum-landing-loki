@@ -2,7 +2,7 @@
 
 ![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)
 
-Devoleum is free and open to everyone. Our solution transforms the data of any supply chain in a meaningful story, making it immutable on the Ethereum blockchain, showing clearly the digital or physical steps that have helped make the product unique and valuable. Devoleum automatically builds a storyboard of the product, easily accessible on our web app from any device just by scanning a smart tag.
+Devoleum is free and open to everyone. Our solution transforms the data of any supply chain in a meaningful story, making it immutable on the Ethereum and Algorand blockchains, showing clearly the digital or physical steps that have helped make the product unique and valuable. Devoleum automatically builds a storyboard of the product, easily accessible on our web app from any device just by scanning a smart tag.
 
 
 ## Documentation
