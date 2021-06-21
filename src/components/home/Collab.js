@@ -1,7 +1,7 @@
 import LocalizedStrings from 'localized-strings';
 import Product from './Product';
 import ImgRice from '../../imgs/carnaroli19.jpg';
-import ImgOil from '../../imgs/inserrataOil.jpg';
+import ImgOil from '../../imgs/evoinserrata.jpg';
 
 let strings = new LocalizedStrings({
 	en: {
