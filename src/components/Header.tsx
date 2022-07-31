@@ -27,23 +27,23 @@ let strings = new LocalizedStrings({
 const internalLinks = [
   {
     title: 'Home',
-    link: '#home',
+    link: '/#home',
   },
   {
     title: strings.about,
-    link: '#about',
+    link: '/#about',
   },
   {
     title: 'Docs',
-    link: '#docs',
+    link: 'https://devoleum.github.io/docs/',
   },
   {
     title: 'Team',
-    link: '#team',
+    link: '/#team',
   },
   {
     title: strings.donate,
-    link: '#donate',
+    link: '/#donate',
   },
 ];
 
@@ -64,7 +64,7 @@ export const Header: Component = () => {
           <nav class={'lg9 md9 ' + (isOpen() ? 'open' : 'closed')}>
             <For each={internalLinks}>
               {(link) => (
-                <a href={'/' + link.link} onClick={() => setIsOpen(false)}>
+                <a href={link.link} onClick={() => setIsOpen(false)}>
                   {link.title}
                 </a>
               )}
