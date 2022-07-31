@@ -8,21 +8,18 @@ let strings = new LocalizedStrings({
     about: 'About',
     press: 'Press',
     stories: 'Stories',
-    contact: 'Contact Us',
     donate: 'Donate',
   },
   it: {
     about: 'Info',
     press: 'Media',
     stories: 'Storie',
-    contact: 'Contattaci',
     donate: 'Dona',
   },
   fr: {
     about: 'Info',
     press: 'Presse',
     stories: 'Histoires',
-    contact: 'Contact',
     donate: 'Donate',
   },
 });
@@ -37,12 +34,12 @@ const internalLinks = [
     link: '#about',
   },
   {
-    title: 'Team',
-    link: '#team',
+    title: 'Docs',
+    link: '#docs',
   },
   {
-    title: strings.contact,
-    link: '#contacts',
+    title: 'Team',
+    link: '#team',
   },
   {
     title: strings.donate,

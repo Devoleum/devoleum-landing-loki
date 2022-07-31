@@ -4,7 +4,7 @@ import ImgCorrectness from '../../imgs/correctness.png';
 import ImgScala from '../../imgs/scala.png';
 import ImgInter from '../../imgs/inter.png';
 import LocalizedStrings from 'localized-strings';
-import { Component } from 'solid-js';
+import { Component, For, Show } from 'solid-js';
 
 let strings = new LocalizedStrings({
   en: {
@@ -126,40 +126,44 @@ export const FeaturesDetails: Component = () => {
         <div class="text-center">
           <h2 class="title">{strings.title}</h2>
         </div>
-        {strings.features.map((item, index) => {
-          if (~index & 1) {
-            return (
+        <For each={strings.features}>
+          {(feature, index) => (
+            <Show
+              when={index() % 2 === 0}
+              fallback={
+                <div class="container bottom-margin">
+                  <div class="columns">
+                    <div class="column col-7 col-md-12 col-ml-auto text-side">
+                      <div>
+                        <h2 class="title">{feature.title}</h2>
+                        <div class="sub-content">{feature.content}</div>
+                      </div>
+                    </div>
+                    <div class="column col-5 col-md-12 col-ml-auto img-side-container">
+                      <ImagesComponents index={index()} />
+                    </div>
+                  </div>
+                </div>
+              }
+            >
               <div class="container bottom-margin">
                 <div class="columns">
                   <div class="column col-7 col-md-12 col-ml-auto text-side">
                     <div>
-                      <h2 class="title">{item.title}</h2>
-                      <div class="sub-content">{item.content}</div>
+                      <h2 class="title">{feature.title}</h2>
+                      <div class="sub-content">{feature.content}</div>
                     </div>
                   </div>
                   <div class="column col-5 col-md-12 col-ml-auto img-side-container">
-                    <ImagesComponents index={index} />
+                    <ImagesComponents index={index()} />
                   </div>
                 </div>
               </div>
-            );
-          }
-          return (
-            <div class="container bottom-margin">
-              <div class="columns">
-                <div class="column col-5 col-md-12 col-ml-auto img-side-container text-center">
-                  <ImagesComponents index={index} />
-                </div>
-                <div class="column col-7 col-md-12 col-ml-auto text-side">
-                  <div>
-                    <h2 class="title">{item.title}</h2>
-                    <div class="sub-content">{item.content}</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+            </Show>
+          )}
+        </For>
+
+        <a id="docs" />
         <div class="text-center">
           <h4>
             <a href="https://devoleum.github.io/docs/" target="_blank" class="think-link">

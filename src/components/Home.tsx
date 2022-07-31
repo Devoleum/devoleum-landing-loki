@@ -4,7 +4,6 @@ import { FeaturesDetails } from './home/FeaturesDetails';
 import { HeadPress } from './home/HeadPress';
 import { Team } from './home/Team';
 import { Collab } from './home/Collab';
-import { Contacts } from './home/Contacts';
 import { Footer } from './home/Footer';
 
 import LocalizedStrings from 'localized-strings';
@@ -69,8 +68,6 @@ export const Home: Component = () => {
       <FeaturesDetails />
       <a id="team" />
       <Team />
-      <a id="contacts" />
-      <Contacts />
       <a id="donate" />
       <Footer />
     </div>

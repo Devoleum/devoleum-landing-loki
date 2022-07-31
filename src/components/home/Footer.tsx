@@ -17,14 +17,14 @@ const SocialIcon: Component<{ icon: JSXElement; url: string }> = (props) => (
 
 export const Footer: Component = () => {
   return (
-    <div>
-      <section class="footer">
+    <section class="devo-section container">
+      <div class="footer">
         <SocialIcon url="https://github.com/Devoleum" icon={<Github />} />
         <SocialIcon url="https://www.instagram.com/devoleum" icon={<Instagram />} />
         <SocialIcon url="https://www.facebook.com/Devoleum" icon={<Facebook />} />
         <SocialIcon url="https://www.linkedin.com/company/18328810" icon={<Linkedin />} />
         <SocialIcon url="https://twitter.com/devoleum" icon={<Twitter />} />
-      </section>
+      </div>
       <div style={{ 'font-size:': '0.6em', 'word-break:': 'break-all ', 'text-align:': 'center' }}>
         <div>Donate to</div>
         <div>ETH: 0xbf8d0d4be61De94EFCCEffbe5D414f911F11cBF8</div>
@@ -32,6 +32,6 @@ export const Footer: Component = () => {
         <br />
         <br />
       </div>
-    </div>
+    </section>
   );
 };
