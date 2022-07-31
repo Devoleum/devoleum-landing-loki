@@ -1,7 +1,7 @@
 import IconMenu from '../icons/IconMenu';
 import LogoDevoleum from '../icons/logo.png';
 import LocalizedStrings from 'localized-strings';
-import { Component, createSignal } from 'solid-js';
+import { Component, createSignal, For } from 'solid-js';
 
 let strings = new LocalizedStrings({
   en: {
@@ -27,6 +27,29 @@ let strings = new LocalizedStrings({
   },
 });
 
+const internalLinks = [
+  {
+    title: 'Home',
+    link: '#home',
+  },
+  {
+    title: strings.about,
+    link: '#about',
+  },
+  {
+    title: 'Team',
+    link: '#team',
+  },
+  {
+    title: strings.contact,
+    link: '#contacts',
+  },
+  {
+    title: strings.donate,
+    link: '#donate',
+  },
+];
+
 export const Header: Component = () => {
   const [isOpen, setIsOpen] = createSignal(false);
 
@@ -42,11 +65,13 @@ export const Header: Component = () => {
             <div>Devoleum</div>
           </div>
           <nav class={'lg9 md9 ' + (isOpen() ? 'open' : 'closed')}>
-            <a href="#home">Home</a>
-            <a href="#about">{strings.about}</a>
-            <a href="#team">Team</a>
-            <a href="#contacts">{strings.contact}</a>
-            <a href="#donate">{strings.donate}</a>
+            <For each={internalLinks}>
+              {(link) => (
+                <a href={'/' + link.link} onClick={() => setIsOpen(false)}>
+                  {link.title}
+                </a>
+              )}
+            </For>
           </nav>
         </div>
       </div>

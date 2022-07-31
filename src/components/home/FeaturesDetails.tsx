@@ -123,7 +123,7 @@ export const FeaturesDetails: Component = () => {
   return (
     <div>
       <section class="devo-section">
-        <div style={{ textAlign: 'center' }}>
+        <div class="text-center">
           <h2 class="title">{strings.title}</h2>
         </div>
         {strings.features.map((item, index) => {
@@ -147,10 +147,7 @@ export const FeaturesDetails: Component = () => {
           return (
             <div class="container bottom-margin">
               <div class="columns">
-                <div
-                  class="column col-5 col-md-12 col-ml-auto img-side-container"
-                  style={{ textAlign: 'center' }}
-                >
+                <div class="column col-5 col-md-12 col-ml-auto img-side-container text-center">
                   <ImagesComponents index={index} />
                 </div>
                 <div class="column col-7 col-md-12 col-ml-auto text-side">
@@ -163,7 +160,7 @@ export const FeaturesDetails: Component = () => {
             </div>
           );
         })}
-        <div style={{ textAlign: 'center' }}>
+        <div class="text-center">
           <h4>
             <a href="https://devoleum.github.io/docs/" target="_blank" class="think-link">
               {strings.calltoaction}
@@ -172,7 +169,7 @@ export const FeaturesDetails: Component = () => {
         </div>
       </section>
       <svg
-        style={{ display: 'block', backgroundColor: '#ffffff', marginBottom: '-5px' }}
+        style={{ display: 'block', 'background-color:': '#ffffff', 'margin-bottom:': '-5px' }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >

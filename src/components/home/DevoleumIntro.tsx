@@ -46,7 +46,7 @@ export const DevoleumIntro: Component = () => {
         </div>
       </section>
       <svg
-        style={{ display: 'block', backgroundColor: '#a2ba24', marginBottom: '-5px' }}
+        style={{ display: 'block', 'background-color:': '#a2ba24', 'margin-bottom:': '-5px' }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >

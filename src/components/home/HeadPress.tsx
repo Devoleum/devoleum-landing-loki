@@ -2,7 +2,7 @@ import ForbesImg from '../../imgs/press/forbes.png';
 import InsiderImg from '../../imgs/press/bi.png';
 import MessaggeroImg from '../../imgs/press/im.png';
 import FigaroImg from '../../imgs/press/figaro.jpg';
-import { Component } from 'solid-js';
+import { Component, For } from 'solid-js';
 
 const QUOTES = [
   {
@@ -42,34 +42,34 @@ export const HeadPress: Component = () => {
     <div>
       <section
         class="devo-section container"
-        style={{ backgroundColor: 'antiquewhite', textAlign: 'center' }}
+        style={{ 'background-color': 'antiquewhite', 'text-align': 'center' }}
       >
         <div class="columns">
-          {QUOTES.map((el) => (
-            <div
-              class="column col-6 col-md-12 columns"
-              style={{ paddingBottom: '25px', textAlign: 'center' }}
-            >
-              <div class="column col-2 col-md-12 col-mr-auto">
-                <img src={el.img} alt="" style={{ borderRadius: '50%' }} />
-              </div>
-              <div class="column col-md-12 press-container">
-                <div class="sub-content" style={{ marginTop: '-20px', textAlign: 'left' }}>
-                  “{el.quote}”
+          <For each={QUOTES}>
+            {(el) => (
+              <div
+                class="column col-6 col-md-12 columns text-center"
+                style={{ 'padding-bottom:': '25px' }}
+              >
+                <div class="column col-2 col-md-12 col-mr-auto">
+                  <img src={el.img} alt="" style={{ 'border-radius:': '50%' }} />
                 </div>
-                <br />
-                <div class="" style={{ marginTop: '-20px', textAlign: 'left' }}>
-                  <a href={el.source} class="" target="_blank">
-                    {el.journal}
-                  </a>
+                <div class="column col-md-12 press-container">
+                  <div class="sub-content text-left">“{el.quote}”</div>
+                  <br />
+                  <div class="text-left">
+                    <a href={el.source} class="" target="_blank">
+                      {el.journal}
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            )}
+          </For>
         </div>
       </section>
       <svg
-        style={{ display: 'block', backgroundColor: 'antiquewhite', marginBottom: '-5px' }}
+        style={{ display: 'block', 'background-color:': 'antiquewhite', 'margin-bottom:': '-5px' }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >

@@ -25,16 +25,13 @@ export const Team: Component = () => {
   return (
     <div>
       <section class="devo-section gray-bg">
-        <div style={{ textAlign: 'center' }}>
+        <div class="text-center">
           <h2 class="title">Team</h2>
         </div>
         <div class="container bottom-margin">
           <div class="columns">
-            <div
-              class="column col-5 col-md-12 col-ml-auto img-side-container"
-              style={{ textAlign: 'center' }}
-            >
-              <img src={ImgElisa} alt="" class="img-side" />
+            <div class="column col-5 col-md-12 col-ml-auto img-side-container text-center">
+              <img src={ImgElisa} alt="Elisa Romondia biopic" class="img-side" />
             </div>
             <div class="column col-7 col-md-12 col-ml-auto text-side">
               <div>
@@ -42,9 +39,8 @@ export const Team: Component = () => {
                 <div class="sub-content">{strings.elisa_bio}</div>
                 <br />
                 <a
-                  class="thin-link"
+                  class="thin-link text-left"
                   href="https://www.linkedin.com/in/elisa-romondia/"
-                  style={{ textAlign: 'left' }}
                   rel="noreferrer noopener"
                   target="_blank"
                 >
@@ -56,11 +52,12 @@ export const Team: Component = () => {
         </div>
         <div class="container bottom-margin">
           <div class="columns">
-            <div
-              class="column col-5 col-md-12 col-ml-auto img-side-container"
-              style={{ textAlign: 'center' }}
-            >
-              <img src={ImgLorenzo} alt="" class="img-side" />
+            <div class="column col-5 col-md-12 col-ml-auto img-side-container text-center">
+              <img
+                src={ImgLorenzo}
+                alt="Lorenzo Zaccagnini profile picture, handsome man with long hair"
+                class="img-side"
+              />
             </div>
             <div class="column col-7 col-md-12 col-ml-auto text-side">
               <div>
@@ -70,7 +67,7 @@ export const Team: Component = () => {
                 <a
                   class="thin-link"
                   href="https://www.linkedin.com/in/lorenzo-zaccagnini/"
-                  style={{ textAlign: 'left' }}
+                  style={{ 'text-align:': 'left' }}
                   rel="noreferrer noopener"
                   target="_blank"
                 >
@@ -82,7 +79,7 @@ export const Team: Component = () => {
         </div>
       </section>
       <svg
-        style={{ display: 'block', backgroundColor: '#f6f6f6', marginBottom: '-5px' }}
+        style={{ display: 'block', 'background-color:': '#f6f6f6', 'margin-bottom:': '-5px' }}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >

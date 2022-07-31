@@ -8,6 +8,7 @@ import { Contacts } from './home/Contacts';
 import { Footer } from './home/Footer';
 
 import LocalizedStrings from 'localized-strings';
+import { Component } from 'solid-js';
 
 let strings = new LocalizedStrings({
   en: {
@@ -27,7 +28,7 @@ let strings = new LocalizedStrings({
   },
 });
 
-export default function Home() {
+export const Home: Component = () => {
   return (
     <div class="home container" id="home">
       <a id="home" />
@@ -39,7 +40,7 @@ export default function Home() {
             <div class="logo-text">
               <h1 class="title">{strings.title}</h1>
               <br />
-              <div style={{ color: 'black', fontSize: '1rem' }}>{strings.desc}</div>
+              <div style={{ color: 'black', 'font-size:': '1rem' }}>{strings.desc}</div>
               <br />
               <a href="https://app.devoleum.com" target="_blank">
                 <button>{strings.subtitle}</button>
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
           <div class="column col-7 col-md-12 col-ml-auto">
             <div class="logo">
-              <img src={ImgTree} alt="" class="inferno-logo" />
+              <img src={ImgTree} alt="Devoleum logo" class="inferno-logo" />
             </div>
           </div>
         </div>
@@ -74,4 +75,4 @@ export default function Home() {
       <Footer />
     </div>
   );
-}
+};
