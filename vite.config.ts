@@ -1,27 +1,26 @@
-import { defineConfig } from "vite";
-import solid from "vite-plugin-solid";
-import mdx from "@mdx-js/rollup";
+import { defineConfig } from 'vite';
+import solid from 'vite-plugin-solid';
+import mdx from '@mdx-js/rollup';
 
 export default defineConfig({
   plugins: [
     {
       ...mdx({
         jsx: true,
-        jsxImportSource: "solid-js",
-        providerImportSource: "solid-mdx",
+        jsxImportSource: 'solid-js',
+        providerImportSource: 'solid-mdx',
       }),
-      enforce: "pre",
+      enforce: 'pre',
     },
-    solid({ extensions: [".md", ".mdx"] }),
+    solid({ extensions: ['.md', '.mdx'] }),
     // VitePWA(pwaOptions),
   ],
   optimizeDeps: {
     include: [],
-    exclude: ["@solid.js/docs"],
   },
   build: {
     polyfillDynamicImport: false,
-    target: "esnext",
+    target: 'esnext',
     terserOptions: {
       compress: {
         unsafe: true,

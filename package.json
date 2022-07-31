@@ -1,0 +1,51 @@
+{
+  "name": "devoleum-site",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "run-s format type:check build:vite",
+    "preview": "vite preview",
+    "https-preview": "vite build && serve dist",
+    "dev": "vite",
+    "build:vite": "vite build",
+    "build:sitemap": "jiti scripts/generateSitemap.js",
+    "type:check": "tsc --noEmit",
+    "format": "prettier -w \"src/**/*.{js,ts,json,css,tsx,jsx}\" \"*.{js,ts,mjs}\""
+  },
+  "dependencies": {
+    "@solid-primitives/i18n": "^1.1.0",
+    "localized-strings": "^0.2.4",
+    "solid-js": "1.4.7",
+    "solid-jsx": "^0.9.0",
+    "solid-meta": "^0.27.5",
+    "solid-utils": "^0.8.1"
+  },
+  "devDependencies": {
+    "@mdx-js/rollup": "^2.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "autoprefixer": "^10.4.7",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.19.0",
+    "fast-glob": "^3.2.11",
+    "front-matter": "^4.0.2",
+    "globby": "^13.1.2",
+    "got": "^12.1.0",
+    "htmlnano": "^2.0.2",
+    "https-localhost": "^4.7.1",
+    "jiti": "^1.14.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "solid-mdx": "^0.0.6",
+    "svgo": "^2.8.0",
+    "terser-config-atomic": "^0.1.1",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.14",
+    "vite-plugin-pwa": "^0.12.2",
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "version": "0.0.0"
+}
