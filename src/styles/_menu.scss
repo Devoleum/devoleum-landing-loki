@@ -1,7 +1,7 @@
 $topnav-height: 2.8rem;
 $sidebar-width: 50%;
 
-.devoleum-logo{
+.devoleum-logo {
   position: absolute;
   top: 1px;
   display: flex;
@@ -11,20 +11,20 @@ $sidebar-width: 50%;
   font-size: 20px;
   color: white;
   z-index: 99;
-    div {
-      padding: 5px;
-      @include media-query($on-medium) {
-        display: none;
-      }
-    }
+  div {
+    padding: 5px;
     @include media-query($on-medium) {
-      display: block;
-      right: 5px;
+      display: none;
     }
+  }
+  @include media-query($on-medium) {
+    display: block;
+    right: 5px;
+  }
 }
 .menu {
   color: black;
-  background-color: #A2BA24;
+  background-color: #a2ba24;
   padding: 7.5px;
   position: fixed;
   width: 100%;
@@ -86,7 +86,7 @@ $sidebar-width: 50%;
       top: 0;
       cursor: pointer;
       position: fixed;
-      z-index: 10;
+      z-index: 666;
       transition: all 0.3s cubic-bezier(0.3, 0, 0, 1);
       box-shadow: 0 5px 8px 4px rgba(0, 0, 0, 0.1);
       box-sizing: border-box;
