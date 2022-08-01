@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import solid from 'vite-plugin-solid';
 import mdx from '@mdx-js/rollup';
 import { VitePWA } from 'vite-plugin-pwa';
-import { IconsArray } from './icons';
 export default defineConfig({
   plugins: [
     {
