@@ -6,7 +6,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "run-s format type:check build:vite && mv manifest.json dist/manifest.json",
+    "build": "run-s format type:check build:vite",
     "preview": "vite preview",
     "https-preview": "vite build && serve dist",
     "dev": "vite",

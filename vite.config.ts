@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import solid from 'vite-plugin-solid';
 import mdx from '@mdx-js/rollup';
-
+import { VitePWA } from 'vite-plugin-pwa';
+import { IconsArray } from './icons';
 export default defineConfig({
   plugins: [
     {
@@ -13,7 +14,18 @@ export default defineConfig({
       enforce: 'pre',
     },
     solid({ extensions: ['.md', '.mdx'] }),
-    // VitePWA(pwaOptions),
+    VitePWA({
+      manifest: {
+        name: 'Devoleum',
+        short_name: 'Devoleum',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: '#A2BA24',
+        display: 'standalone',
+        orientation: 'portrait',
+        icons: IconsArray,
+      },
+    }),
   ],
   optimizeDeps: {
     include: [],

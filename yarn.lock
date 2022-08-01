@@ -1125,11 +1125,6 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.3.0.tgz#0ec9264cf54a527671d990eb874e030b55b70dcc"
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
-"@solid-primitives/i18n@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/i18n/-/i18n-1.1.0.tgz#9fda959868eae5c78a55a510712e48529c118e6b"
-  integrity sha512-aqJttEb8rmsQTU5VqfBfaeHFMIqKu1eXHVEahtW4DGKYBz/CDis5V25psQEyspuVTmPs7RpX99Whe9jV7ib4pg==
-
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz#ee34985952ca21558ab0d952f00298ad2190c053"
