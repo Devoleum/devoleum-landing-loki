@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "localized-strings": "^0.2.4",
+    "milligram": "^1.4.1",
     "solid-js": "1.4.7",
     "solid-jsx": "^0.9.0",
     "solid-meta": "^0.27.5",

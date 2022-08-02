@@ -119,70 +119,64 @@ const ImagesComponents: Component<{ index: number }> = (props) => {
   }
 };
 
-export const FeaturesDetails: Component = () => {
-  return (
-    <div>
-      <section class="devo-section">
-        <div class="text-center">
-          <h2 class="title">{strings.title}</h2>
-        </div>
-        <For each={strings.features}>
-          {(feature, index) => (
-            <Show
-              when={index() % 2 === 0}
-              fallback={
-                <div class="container bottom-margin">
-                  <div class="columns">
-                    <div class="column col-7 col-md-12 col-ml-auto text-side">
-                      <div>
-                        <h2 class="title">{feature.title}</h2>
-                        <div class="sub-content">{feature.content}</div>
-                      </div>
-                    </div>
-                    <div class="column col-5 col-md-12 col-ml-auto img-side-container">
-                      <ImagesComponents index={index()} />
-                    </div>
+export const FeaturesDetails: Component<{ color: string }> = ({ color }) => (
+  <div style={{ 'background-color': color }}>
+    <section class="devo-section">
+      <div class="text-center">
+        <h2 class="title">{strings.title}</h2>
+      </div>
+      <For each={strings.features}>
+        {(feature, index) => (
+          <Show
+            when={index() % 2 === 0}
+            fallback={
+              <div class="grid-container">
+                <div class="column col-7 col-md-12 col-ml-auto text-side">
+                  <div>
+                    <h2 class="title">{feature.title}</h2>
+                    <div class="sub-content">{feature.content}</div>
                   </div>
                 </div>
-              }
-            >
-              <div class="container bottom-margin">
-                <div class="columns">
-                  <div class="column col-7 col-md-12 col-ml-auto text-side">
-                    <div>
-                      <h2 class="title">{feature.title}</h2>
-                      <div class="sub-content">{feature.content}</div>
-                    </div>
-                  </div>
-                  <div class="column col-5 col-md-12 col-ml-auto img-side-container">
-                    <ImagesComponents index={index()} />
-                  </div>
+                <div class="column col-5 col-md-12 col-ml-auto img-side-container">
+                  <ImagesComponents index={index()} />
                 </div>
               </div>
-            </Show>
-          )}
-        </For>
+            }
+          >
+            <div class="grid-container">
+              <div class="column col-7 col-md-12 col-ml-auto text-side">
+                <div>
+                  <h2 class="title">{feature.title}</h2>
+                  <div class="sub-content">{feature.content}</div>
+                </div>
+              </div>
+              <div class="column col-5 col-md-12 col-ml-auto img-side-container">
+                <ImagesComponents index={index()} />
+              </div>
+            </div>
+          </Show>
+        )}
+      </For>
 
-        <a id="docs" />
-        <div class="text-center">
-          <h4>
-            <a href="https://devoleum.github.io/docs/" target="_blank" class="think-link">
-              {strings.calltoaction}
-            </a>
-          </h4>
-        </div>
-      </section>
-      <svg
-        style={{ display: 'block', 'background-color:': '#ffffff', 'margin-bottom:': '-5px' }}
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#f6f6f6"
-          fill-opacity="1"
-          d="M0,160L80,170.7C160,181,320,203,480,192C640,181,800,139,960,122.7C1120,107,1280,117,1360,122.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        />
-      </svg>
-    </div>
-  );
-};
+      <a id="docs" />
+      <div class="text-center">
+        <h4>
+          <a href="https://devoleum.github.io/docs/" target="_blank" class="think-link">
+            {strings.calltoaction}
+          </a>
+        </h4>
+      </div>
+    </section>
+    <svg
+      style={{ display: 'block', 'background-color:': '#ffffff', 'margin-bottom:': '-5px' }}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#f6f6f6"
+        fill-opacity="1"
+        d="M0,160L80,170.7C160,181,320,203,480,192C640,181,800,139,960,122.7C1120,107,1280,117,1360,122.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      />
+    </svg>
+  </div>
+);

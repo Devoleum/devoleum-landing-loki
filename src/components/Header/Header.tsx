@@ -1,5 +1,5 @@
-import IconMenu from '../icons/IconMenu';
-import LogoDevoleum from '../icons/logo.png';
+import IconMenu from '../../icons/IconMenu';
+import LogoDevoleum from '../../icons/logo.png';
 import LocalizedStrings from 'localized-strings';
 import { Component, createSignal, For } from 'solid-js';
 

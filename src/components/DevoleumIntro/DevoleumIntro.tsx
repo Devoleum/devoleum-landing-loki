@@ -23,39 +23,31 @@ let strings = new LocalizedStrings({
   },
 });
 
-export const DevoleumIntro: Component = () => {
-  return (
-    <div>
-      <section class="devo-section green-bg">
-        <div class="container">
-          <div class="columns">
-            <div class="column col-8 col-md-12 col-ml-auto text-side">
-              <div>
-                <h2 class="title">{strings.title}</h2>
-                <div class="sub-content">{strings.content}</div>
-                <br />
-                <a href="https://app.devoleum.com/" target="_blank" class="think-link">
-                  <button>{strings.calltoaction}</button>
-                </a>
-              </div>
-            </div>
-            <div class="column col-4 col-md-12 col-ml-auto img-side-container">
-              <img src={ImgIdea} class="img-side" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <svg
-        style={{ display: 'block', 'background-color:': '#a2ba24', 'margin-bottom:': '-5px' }}
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#f6f6f6"
-          fill-opacity="1"
-          d="M0,160L80,170.7C160,181,320,203,480,192C640,181,800,139,960,122.7C1120,107,1280,117,1360,122.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        />
-      </svg>
-    </div>
-  );
-};
+export const DevoleumIntro: Component<{ color: string }> = ({ color }) => (
+  <div style={{ 'background-color': color }}>
+    <section class="grid-container">
+      <div>
+        <h2 class="title">{strings.title}</h2>
+        <div class="sub-content">{strings.content}</div>
+        <br />
+        <a href="https://app.devoleum.com/" target="_blank" class="think-link">
+          <button>{strings.calltoaction}</button>
+        </a>
+      </div>
+      <div>
+        <img src={ImgIdea} class="img-side" alt="" />
+      </div>
+    </section>
+    <svg
+      style={{ display: 'block', 'background-color:': '#a2ba24', 'margin-bottom:': '-5px' }}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#f6f6f6"
+        fill-opacity="1"
+        d="M0,160L80,170.7C160,181,320,203,480,192C640,181,800,139,960,122.7C1120,107,1280,117,1360,122.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+      />
+    </svg>
+  </div>
+);
